@@ -179,7 +179,22 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="Vidya Prabodhini Prashala Logo"
-                className="absolute top-4 left-4 h-16 bg-white rounded-2xl m-2 p-1 w-auto object-contain shadow-2xl"
+                className="
+      absolute
+      top-4
+      left-6
+      h-15
+      md:h-16
+      2xl:left-18            
+      2xl:h-25
+      bg-white
+      rounded-2xl
+      m-2
+      p-1
+      w-auto
+      object-contain
+      shadow-2xl
+    "
               />
             </Link>
 
